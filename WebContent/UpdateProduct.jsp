@@ -23,7 +23,7 @@ int idProduit= Integer.parseInt(request.getParameter("idProduct"));
 Produit p= cnx.FindProduct(idProduit);
 if (p!=null) {%>
 <div class="container">
-  <h2>Nouveau produit</h2>
+  <h2>Editer produit</h2>
   <form action="/GestionAchats/UpdateProduct">
     <div class="form-group">
       <label">Nom Produit:</label>
